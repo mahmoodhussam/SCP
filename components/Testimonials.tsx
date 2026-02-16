@@ -95,7 +95,7 @@ function TestimonialCard({
         ))}
       </div>
       <p className="text-foreground/70 mb-6 flex-grow leading-relaxed">
-        "{testimonial.text}"
+        &ldquo;{testimonial.text}&rdquo;
       </p>
       <div className="border-t border-red-100 pt-4">
         <p className="font-semibold text-foreground">{testimonial.name}</p>
