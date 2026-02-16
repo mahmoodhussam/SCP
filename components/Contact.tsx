@@ -5,7 +5,7 @@ import { useInView } from "framer-motion"
 import { useRef } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Fax } from "lucide-react"
+import { Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -136,7 +136,7 @@ export default function Contact() {
                   placeholder="أخبرنا عن استفسارك..."
                 />
               </div>
-              <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
+              <Button type="submit" className="w-full" disabled={isSubmitting}>
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
             </form>
@@ -166,15 +166,12 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Phone & Fax</h3>
+                  <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                   <p className="text-foreground/70 space-y-1">
                     <div>
                       Tel: <a href="tel:+96264029554" className="hover:text-primary transition-colors">
                         +962 6 4029554
                       </a>
-                    </div>
-                    <div>
-                      Fax: <span className="text-foreground/70">+962 6 4029556</span>
                     </div>
                   </p>
                 </div>
