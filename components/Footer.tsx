@@ -92,21 +92,21 @@ export default function Footer() {
               <li>Jordan</li>
               <li className="pt-2">
                 Tel: <a
-                  href="tel:+96264029554"
+                  href="tel:+96264915439"
                   className="hover:text-white transition-colors"
                 >
-                  +962 6 4029554
+                  +962 6 4915439
                 </a>
               </li>
               <li>
-                Fax: +962 6 4029556
+                Mobile: <a href="tel:+962799340084" className="hover:text-white transition-colors">0799340084</a>
               </li>
               <li>
                 <a
-                  href="mailto:info@scpindustries.com"
-                  className="hover:text-white transition-colors"
+                  href="mailto:mahmmodabdaldeen@gmail.com"
+                  className="break-all hover:text-white transition-colors"
                 >
-                  info@scpindustries.com
+                  mahmmodabdaldeen@gmail.com
                 </a>
               </li>
             </ul>

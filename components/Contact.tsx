@@ -115,7 +115,7 @@ export default function Contact() {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-input rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="+962 6 4029554"
+                  placeholder="+962 6 4915439"
                 />
               </div>
               <div>
@@ -169,13 +169,19 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                  <p className="text-foreground/70 space-y-1">
+                  <div className="text-foreground/70 space-y-1">
                     <div>
-                      Tel: <a href="tel:+96264029554" className="hover:text-primary transition-colors">
-                        +962 6 4029554
+                      Tel: <a href="tel:+96264915439" className="hover:text-primary transition-colors">
+                        +962 6 4915439
                       </a>
                     </div>
-                  </p>
+                    <div>
+                      Mobile: <a href="tel:+962799340084" className="hover:text-primary transition-colors">0799340084</a>
+                    </div>
+                    <div className="break-all">
+                      Email: <a href="mailto:mahmmodabdaldeen@gmail.com" className="hover:text-primary transition-colors">mahmmodabdaldeen@gmail.com</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
