@@ -157,7 +157,9 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Address</h3>
                   <p className="text-foreground/70">
-                    Sahab - King Abdullah II Industrial Estate<br />
+                    Sahab - King Abdullah II Industrial City - 9 Str.<br />
+                    P.O. Box 710848, ZIP code 11171<br />
+                    Jordan
                   </p>
                 </div>
               </div>
@@ -209,14 +211,14 @@ export default function Contact() {
             {/* Map */}
             <div className="h-64 rounded-lg overflow-hidden bg-red-50 border-2 border-red-100">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.847!2d36.0128!3d31.8475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDUwJzUxLjAiTiAzNsKwMDAnNDYuMSJF!5e0!3m2!1sen!2sjo!4v1234567890123"
+                src="https://www.google.com/maps?q=Sahab%20King%20Abdullah%20II%20Industrial%20City%20Street%209%20Jordan&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="SCP Industries - Sahab, King Abdullah II Industrial Estate, Jordan"
+                title="SCP Industries - Sahab, King Abdullah II Industrial City, Street 9, Jordan"
               />
             </div>
           </motion.div>

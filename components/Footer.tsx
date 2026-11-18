@@ -1,6 +1,7 @@
 "use client"
 
 import { Facebook, Instagram, Twitter } from "lucide-react"
+import Image from "next/image"
 
 const footerLinks = {
   quick: [
@@ -32,7 +33,15 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Logo & Description */}
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">SCP INDUSTRIES</h3>
+            <a href="#home" onClick={(e) => handleNavClick(e, "#home")} className="mb-4 inline-block rounded-sm bg-white p-2" aria-label="SCP Industries home">
+              <Image
+                src="/images/scp-logo.jpg"
+                alt="SCP — Secret of Creative for Plastic Industries"
+                width={1600}
+                height={1048}
+                className="h-auto w-48 max-w-full"
+              />
+            </a>
             <p className="text-red-200 text-sm leading-relaxed">
               Since 1996 - Leading manufacturer of plastic pipes and fittings
             </p>
@@ -78,8 +87,8 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-red-200">
               <li>Sahab - King Abdullah II</li>
-              <li>Industrial Estate</li>
-              <li>Str.8 - Building 321, GP</li>
+              <li>Industrial City - 9 Str.</li>
+              <li>P.O. Box 710848, ZIP code 11171</li>
               <li>Jordan</li>
               <li className="pt-2">
                 Tel: <a

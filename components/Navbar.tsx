@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -49,9 +50,17 @@ export default function Navbar() {
           <a
             href="#home"
             onClick={(e) => handleNavClick(e, "#home")}
-            className="text-2xl font-bold text-foreground hover:text-primary transition-colors"
+            className="block shrink-0 rounded-sm bg-white px-2 py-1"
+            aria-label="SCP Industries home"
           >
-            SCP INDUSTRIES
+            <Image
+              src="/images/scp-logo.jpg"
+              alt="SCP — Secret of Creative for Plastic Industries"
+              width={1600}
+              height={1048}
+              priority
+              className="h-16 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Navigation */}
