@@ -27,7 +27,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight"
           >
-            SCR
+            SECRET OF CREATIVE FOR <span className="text-primary">PLASTIC INDUSTRIES</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
