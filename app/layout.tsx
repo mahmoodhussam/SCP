@@ -9,12 +9,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "SCP Industries | Industrial Solutions",
+  title: "SCR",
   description: "SCP Industries - Leading industrial solutions and manufacturing excellence.",
   keywords: "SCP Industries, industrial, manufacturing, solutions",
   authors: [{ name: "SCP Industries" }],
   openGraph: {
-    title: "SCP Industries",
+    title: "SCR",
     description: "Industrial Solutions",
     type: "website",
   },
